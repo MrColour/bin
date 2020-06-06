@@ -1,0 +1,6 @@
+EXTRACT_FILES = \
+	.editorconfig \
+	.gitignore \
+	Makefile \
+
+extract:
