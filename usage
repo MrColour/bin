@@ -1,6 +1,13 @@
+NAME = penteract
+
 EXTRACT_FILES = \
 	.editorconfig \
 	.gitignore \
 	Makefile \
 
 extract:
+	mv $(EXTRACT_FILES) ..\
+	make -f usage clean
+
+clean:
+	rm -rf ../$(NAME)
