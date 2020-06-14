@@ -16,7 +16,7 @@ FILE_NAMES = \
 SRCS = $(addsuffix .c, $(addprefix $(SRC_DIR), $(FILE_NAMES)))
 # Object files will be built to BIN_DIR. They will build the
 # structure/ path tree that the SRC_DIR has.
-OBJS = $(addsuffix $(BIN_DIR), $(SRCS:.c=.o))
+OBJS = $(addprefix $(BIN_DIR), $(SRCS:.c=.o))
 
 all: $(NAME)
 
