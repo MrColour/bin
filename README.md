@@ -6,4 +6,4 @@ To use:
 
 `git clone https://github.com/MrColour/penteract`
 
-`make -f penetract/usage extract`
+`make -f penteract/usage extract`
